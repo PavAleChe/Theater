@@ -38,6 +38,11 @@ namespace Theater.Controllers
             return View();
         }
 
+        public ActionResult Error()
+        {
+            return View();
+        }
+
         public ActionResult News()
         {
             return View();
