@@ -1,0 +1,36 @@
+﻿body{
+	margin: 0;
+	background-color: #C0A0AB;
+}
+
+#HeadDiv{
+	position:relative;
+	width:1120px;
+	margin: 0px auto;
+}
+
+#BossImg{
+	position: absolute;
+	z-index:0;
+}
+#АдминN{
+	position: absolute;
+	left: 819px; 
+	top: 76px; 
+}
+#СпбN{
+	position: absolute;
+	left: 746px; 
+	top: 0px; 
+}
+#АфишаНадписьN{
+	position: absolute;
+	top:0px;
+	left:468px;
+
+}
+#ГлавноеменюN{
+	position: absolute;
+	top:0px;
+	left:67px;
+}

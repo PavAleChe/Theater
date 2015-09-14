@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Афиша";
+    Layout = null;
+}
+
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link href="~/Content/AfishaStyle.css" rel="stylesheet" type="text/Scss">
+    <script type="text/javascript" src="~/Scripts/MouseOutOverScript.js"></script>
+</head>
+
+<body>
+
+    <div id="HeadDiv" style="left: 0px; top: 0px; width: 1120px; height: 94px;">
+        <img alt="" height="840" src="~/Content/Img/afisha/Фон.jpg" width="1120" id="BossImg" style="left: 7px; top: -18px">
+
+        <a href="/Home/Contacts">
+        <img alt="Администрация" height="74" src="~/Content/Img/afisha/АдминN.png" width="217" id="АдминN" onmouseout="ImgMouseOutForAll('АдминN')" onmouseover="ImgMouseOverForAll('АдминN')">
+        </a>
+
+        <a href="/Home/Index">
+            <img alt="" height="88" src="~/Content/Img/afisha/СпбN.png" width="352" id="СпбN" onmouseout="ImgMouseOutForAll('СпбN')" onmouseover="ImgMouseOverForAll('СпбN')">
+        </a>
+
+        <a href="/Home/Afisha">
+            <img alt="" height="87" src="~/Content/Img/afisha/АфишаНадписьN.png" width="203" id="АфишаНадписьN" onmouseout="ImgMouseOutForAll('АфишаНадписьN')" onmouseover="ImgMouseOverForAll('АфишаНадписьN')">
+        </a>
+
+        <a href="/Home/Index">
+            <img alt="" height="80" src="~/Content/Img/afisha/Главное менюN.png" width="285" id="ГлавноеменюN" onmouseout="ImgMouseOutForAll('ГлавноеменюN')" onmouseover="ImgMouseOverForAll('ГлавноеменюN')">
+        </a>
+
+    </div>
+
+</body>
+
+</html>
+

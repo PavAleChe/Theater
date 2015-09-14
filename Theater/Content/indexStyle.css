@@ -1,0 +1,83 @@
+﻿body{
+	margin: 0;
+	background-color: #C0A0AB;
+}
+
+#HeadDiv{
+	position:relative;
+	width:1120px;
+	margin: 0px auto;
+}
+
+#BossImg{
+	position: absolute;
+}
+
+#Отчеты{
+	position:absolute;
+	left: 730px;
+	 top: 478px;
+}
+
+#Партнеры{
+	position:absolute;
+	left: 463px; 
+	top: 324px;
+}
+
+#Новости{
+	position:absolute;
+	left: 109px; 
+	top: 316px;
+}
+#Афиша{
+	position:absolute;
+	left: 643px; 
+	top: 190px
+}
+
+#Репертуар{
+	position:absolute;
+	left: 528px; 
+	top: 144px;
+}
+
+#Люди{
+	position:absolute;
+	left: 543px; 
+	top: 231px;
+}
+
+#Отеатре{
+	position:absolute;
+	left: 590px;
+	top: 105px;
+}
+
+#Котнакты{
+	position:absolute;
+	left: 507px; 
+	top: 273px;
+}
+
+#ТеатрСтудия{
+	position:absolute;
+	left: 778px; 
+	top: 757px;	
+}
+
+#СПБ{
+	position:absolute;
+	left: 50px; 
+	top: 24px; 
+	height: 64px; 
+	width: 548px;
+}
+#СМиру{	
+	position:absolute;
+	left: 162px;
+	top: 83px; 
+	height: 57px; 
+	width: 320px;
+	color:black;
+}

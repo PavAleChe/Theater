@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/galleria-1.4.2.min.js"></script>
+    <style>
+        .galleria {
+            position: relative;
+            width: 1000px;
+            height: 700px;
+            background: #000;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body style="margin:0px">
+    <a href="/Home/Index">
+        <div style=" position:relative; height:80px; width: 1000px; background-color:black; margin: 0px auto;">
+            <img alt="" src="~/Content/Img/about/ГлавноеMеню.png" height="80" width="285" style="position:absolute;  margin: 0px auto; margin-left:360px" />
+        </div>
+    </a>
+    <div class="galleria">
+        @RenderBody()
+    </div>
+    <script>
+            Galleria.loadTheme('../Scripts/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+    </script>
+</body>
+</html>

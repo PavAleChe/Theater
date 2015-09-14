@@ -1,0 +1,80 @@
+﻿body{
+	margin: 0;
+	background-color: #3F3B4C;
+}
+
+#Boss{
+	position:relative;
+	width:1120px;
+	margin:0px auto;
+}
+
+#Фон{
+	position:absolute;
+}
+
+#Репертуар{
+	position:absolute;
+	left: 415px; top: 22px;
+}
+
+#Поллианна{
+	position:absolute;
+	left: 441px; top: 746px;
+}
+
+#DivPollianna{
+	position:absolute;
+	left: 447px; top: 509px; height: 216px; width: 248px;
+}
+
+#ПятьИсторийЛюбви{
+	position:absolute;
+	left: 123px; top: 771px;
+}
+
+#DivFiveStoryLove{
+	position:absolute;
+	left: 127px; top: 534px; height: 215px; width: 250px;
+}
+
+#РыцарскаяСвеча{
+	position:absolute;
+	left: 744px; top: 769px;
+}
+
+#DivCrousider{
+	position:absolute;
+	left: 745px; top: 532px; height: 219px; width: 251px;	
+}
+
+#СердцеХранимое{
+	position:absolute;
+	left: 742px; top: 222px;
+}
+
+#DivHeart{
+	position:absolute;
+	left: 742px; top: 272px; height: 194px; width: 247px;
+}
+
+#ТыОсобенный{
+	position:absolute;
+	left: 130px; top: 208px;
+}
+
+#DivWhoAreYou{
+	position:absolute;
+	left: 121px; top: 259px; height: 208px; width: 266px;
+}
+
+#ЧемЛюдиЖивы{
+	position:absolute;
+	left: 449px; top: 417px;
+}
+
+#DivWhatPiopleLive{
+	position:absolute;
+	left: 455px; top: 204px; height: 189px; width: 226px;
+}
+

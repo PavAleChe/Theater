@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+     
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/galleria-1.4.2.min.js"></script>
+    <style>
+        body{
+	margin: 0;
+	background-color: #C0A0AB;
+}
+
+#HeadDiv{
+	position:relative;
+	width:1120px;
+	margin: 0px auto;
+}
+
+#BossImg{
+	position: absolute;
+	z-index:0;
+}
+#Админ{
+	position: absolute;
+	left: 819px; 
+	top: 76px; 
+}
+#Спб{
+	position: absolute;
+	left: 746px; 
+	top: 0px; 
+}
+#ОТеатре{
+	position: absolute;
+	top:0px;
+	left:471px;
+	
+}
+#ГлавноеMеню{
+	position:absolute;
+	top:0px;
+	left:67px;
+}
+        .galleria {
+            position:absolute;
+            width: 700px;
+            height: 400px;
+            background: #000;
+        }
+    </style>
+
+    <!--<link href="@@Url.Content("~/Content/backgroundStyle.css")" rel="stylesheet" type="text/css" />-->
+    <script type="text/javascript" src="~/Scripts/MouseOutOverScript.js"></script>
+
+</head>
+<body>
+
+    <div id="HeadDiv" style="left: 0px; top: 0px; width: 1120px; height: 94px; position:relative;
+	width:1120px;
+	margin: 0px auto;">
+        <img alt="" height="840" src="~/Content/Img/background/background.jpg" width="1120" id="BossImg" style="position: absolute;
+	z-index:0; left: 7px; top: -18px">
+
+        <a href="/Home/Contacts">
+        <img alt="" height="74" src="~/Content/Img/background/Админ.png" width="217" id="Админ" onmouseout="ImgMouseOutForAll('Админ')" onmouseover="    ImgMouseOverForAll('Админ')">
+        </a>
+        <a href="/Home/Index">
+        <img alt="" height="88" src="~/Content/Img/background/Спб.png" width="352" id="Спб"  onmouseout="ImgMouseOutForAll('Спб')" onmouseover="    ImgMouseOverForAll('Спб')">
+        </a>
+        <a href="/Home/Index">
+        <img alt="" height="80" src="~/Content/Img/background/ГлавноеMеню.png" width="285" id="ГлавноеMеню"  onmouseout="ImgMouseOutForAll('ГлавноеMеню')" onmouseover="    ImgMouseOverForAll('ГлавноеMеню')">
+        </a>
+
+            <div class="galleria">
+                <img alt="" src="~/Content/Img/about/about.jpg" />
+                <img alt="" src="~/Content/Img/afisha/Фон.jpg" />
+                <img alt="" src="~/Content/Img/background/background.jpg" />
+               @RenderBody()
+            </div>
+            
+    </div> 
+    <script>
+        Galleria.loadTheme('../Scripts/themes/classic/galleria.classic.min.js');
+        Galleria.run('.galleria');
+    </script>
+  
+</body>
+</html>
