@@ -41,3 +41,21 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.dll
+Theater/bin/EntityFramework.SqlServer.xml
+*.config
+Theater/bin/Theater.pdb
+*.xml
+.vs/config/applicationhost.config
+*.suo
+Theater/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+*.cs
+Theater/obj/Debug/Theater.csprojResolveAssemblyReference.cache
+*.pdb
+Theater/obj/Debug/Theater.csproj.FileListAbsolute.txt
+*.suo
+*.config
+.vs/config/applicationhost.config
+*.cache
+.vs/config/applicationhost.config
+*.config
