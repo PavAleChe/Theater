@@ -38,9 +38,31 @@ namespace Theater.Controllers
             return View();
         }
 
+        public ActionResult Error()
+        {
+            return View();
+        }
+
+        public ActionResult Contacts()
+        {
+            return View();
+        }
+
         public ActionResult News()
         {
             return View();
+        }
+
+        //Так как страница пока не существует, перенаправляем на страницу ошибки
+        public ActionResult People()
+        {
+            return View("Error");
+        }
+
+        //Так как страница пока не существует, перенаправляем на страницу ошибки
+        public ActionResult Reports()
+        {
+            return View("Error");
         }
     }
 }

@@ -78,3 +78,19 @@
 	left: 455px; top: 204px; height: 189px; width: 226px;
 }
 
+#ГлавноеMеню{
+	position:absolute;
+	top:0px;
+	left:67px;
+}
+
+#Админ{
+	position: absolute;
+	left: 819px; 
+	top: 76px; 
+}
+#Спб{
+	position: absolute;
+	left: 746px; 
+	top: 0px; 
+}

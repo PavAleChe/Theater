@@ -1,7 +1,10 @@
 ﻿<!DOCTYPE html>
 
 <html>
-<head>
+
+
+        <a href="/Home/Contacts">
+            <img alt="" height="74" src="~/Content/Img/background/Админ.png" widt<head>
     <meta name="viewport" content="width=device-width" />
     <script src="~/Scripts/jquery-1.10.2.js"></script>
     <script src="~/Scripts/galleria-1.4.2.min.js"></script>
@@ -11,10 +14,7 @@
 </head>
 <body>
     <div id="HeadDiv" style="left: 0px; top: 0px; width: 1120px; height: 94px;">
-        <img alt="" height="840" src="~/Content/Img/background/background.jpg" width="1120" id="BossImg" style="left: 7px; top: -18px">
-
-        <a href="/Home/Contacts">
-            <img alt="" height="74" src="~/Content/Img/background/Админ.png" width="217" id="Админ" onmouseout="ImgMouseOutForAll('Админ')" onmouseover="    ImgMouseOverForAll('Админ')">
+        <img alt="" height="840" src="~/Content/Img/background/background.jpg" width="1120" id="BossImg" style="left: 7px; top: -18px">h="217" id="Админ" onmouseout="ImgMouseOutForAll('Админ')" onmouseover="    ImgMouseOverForAll('Админ')">
         </a>
         <a href="/Home/Index">
             <img alt="" height="88" src="~/Content/Img/background/Спб.png" width="352" id="Спб" onmouseout="ImgMouseOutForAll('Спб')" onmouseover="    ImgMouseOverForAll('Спб')">
@@ -23,9 +23,9 @@
             <img alt="" height="80" src="~/Content/Img/background/ГлавноеMеню.png" width="285" id="ГлавноеMеню" onmouseout="ImgMouseOutForAll('ГлавноеMеню')" onmouseover="    ImgMouseOverForAll('ГлавноеMеню')">
         </a>
 
-        <div class="galleria">
+        
             @RenderBody()
-        </div>
+     
 
     </div> 
     <script>
