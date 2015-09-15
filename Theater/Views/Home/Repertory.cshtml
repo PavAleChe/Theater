@@ -9,7 +9,7 @@
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <link href="~/Content/repertoryStyle.css" rel="stylesheet" type="text/Scss">
-    <script type="text/javascript" src="~/Scripts/repertoryScript.js"></script>
+    <script type="text/javascript" src="~/SCRIPTS/MouseOutOverScript.js"></script>
 
     <title>Репертуар</title>
 </head>
@@ -24,28 +24,44 @@
         </a>
 
         <a href="/Repertory/NotNormal">
-            <img alt="" src="~/Content/Img/repertory/Ты особенный.png" id="ТыОсобенный" height="37" width="247" name="ТыОсобенный" onmouseout="ImgMouseOutTO()" onmouseover="ImgMouseOverTO()">
+            <img alt="" src="~/Content/Img/repertory/Ты особенный.png" id="ТыОсобенный" height="37" width="247" name="ТыОсобенный" onmouseout="ImgMouseOutForAll('ТыОсобенный')" onmouseover="    ImgMouseOverForAll('ТыОсобенный')">
         </a>
 
         <a href="/Repertory/WhyPeopleLive">
-            <img alt="" src="~/Content/Img/repertory/Чем люди живы.png" id="ЧемЛюдиЖивы" height="36" width="242" name="ЧемЛюдиЖивы" onmouseout="ImgMouseOutCHLG()" onmouseover="ImgMouseOverCHLG()">
+            <img alt="" src="~/Content/Img/repertory/Чем люди живы.png" id="ЧемЛюдиЖивы" height="36" width="242" name="ЧемЛюдиЖивы" onmouseout="ImgMouseOutForAll('ЧемЛюдиЖивы')" onmouseover="    ImgMouseOverForAll('ЧемЛюдиЖивы')">
         </a>
 
         <a href="/Repertory/Heart">
-            <img alt="" src="~/Content/Img/repertory/Сердце хранимое.png" id="СердцеХранимое" height="32" width="247" name="СердцеХранимое" onmouseout="ImgMouseOutCX()" onmouseover="ImgMouseOverCX()" style="left: 742px; top: 222px">
+            <img alt="" src="~/Content/Img/repertory/Сердце хранимое.png" id="СердцеХранимое" height="32" width="247" name="СердцеХранимое" onmouseout="ImgMouseOutForAll('СердцеХранимое')" onmouseover="    ImgMouseOverForAll('СердцеХранимое')">
         </a>
 
         <a href="/Repertory/Five">
-            <img alt="" src="~/Content/Img/repertory/5 историй любви.png" id="ПятьИсторийЛюбви" height="34" width="256" name="ПятьИсторийЛюбви" onmouseout="ImgMouseOutPIL()" onmouseover="ImgMouseOverPIL()">
+            <img alt="" src="~/Content/Img/repertory/5 историй любви.png" id="ПятьИсторийЛюбви" height="34" width="256" name="ПятьИсторийЛюбви" onmouseout="ImgMouseOutForAll('ПятьИсторийЛюбви')" onmouseover="    ImgMouseOverForAll('ПятьИсторийЛюбви')">
         </a>
 
         <a href="/Repertory/Pollianna">
-            <img alt="" src="~/Content/Img/repertory/ПоллианнаНадпись.png" id="Поллианна" height="36" width="263" name="Поллианна" onmouseout="ImgMouseOutP()" onmouseover="ImgMouseOverP()">
+            <img alt="" src="~/Content/Img/repertory/ПоллианнаНадпись.png" id="Поллианна" height="36" width="263" name="Поллианна" onmouseout="ImgMouseOutForAll('Поллианна')" onmouseover="    ImgMouseOverForAll('Поллианна')">
         </a>
 
         <a href="/Repertory/Candle">
-            <img alt="" src="~/Content/Img/repertory/Рыцарская свеча.png" id="РыцарскаяСвеча" height="40" width="252" name="РыцарскаяСвеча" onmouseout="ImgMouseOutRC()" onmouseover="ImgMouseOverRC()">
+            <img alt="" src="~/Content/Img/repertory/Рыцарская свеча.png" id="РыцарскаяСвеча" height="40" width="252" name="РыцарскаяСвеча" onmouseout="ImgMouseOutForAll('РыцарскаяСвеча')" onmouseover="    ImgMouseOverForAll('РыцарскаяСвеча')">
         </a>
+
+        <!-- Menu-->
+
+        <a href="/Home/Index">
+            <img alt="" height="80" src="~/Content/img/repertory/ГлавноеMеню.png" width="285" id="ГлавноеMеню" name="ГлавноеMеню" onmouseout="ImgMouseOutForAll('ГлавноеMеню')" onmouseover="    ImgMouseOverForAll('ГлавноеMеню')">
+        </a>
+
+        <a href="/Home/Contacts">
+            <img alt="" height="70" src="~/Content/img/contacts/Админ.png" id="Админ" name="Админ" onmouseout="ImgMouseOutForAll('Админ')" onmouseover="    ImgMouseOverForAll('Админ')">
+        </a>
+
+        <a href="/Home/Index">
+            <img alt="" height="88" src="~/Content/img/contacts/Спб.png" width="352" id="Спб" name="Спб" onmouseout="ImgMouseOutForAll('Спб')" onmouseover="ImgMouseOverForAll('Спб')">
+        </a>
+
+        <!-- End menu -->
 
         <a href="/Repertory/Candle"><div id="DivCrousider"></div></a>
         <a href="/Repertory/Five"><div id="DivFiveStoryLove"></div></a>
