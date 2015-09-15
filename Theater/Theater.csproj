@@ -181,6 +181,7 @@
     <Content Include="Content\backgroundStyle.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ContactsStyle.css" />
     <Content Include="Content\ErrorStyle.css" />
     <Content Include="Content\Img\about\about.jpg" />
     <Content Include="Content\Img\about\Админ.png" />
@@ -196,6 +197,11 @@
     <Content Include="Content\Img\background\Админ.png" />
     <Content Include="Content\Img\background\ГлавноеMеню.png" />
     <Content Include="Content\Img\background\Спб.png" />
+    <Content Include="Content\Img\contacts\Админ.png" />
+    <Content Include="Content\Img\contacts\ГлавноеMеню.png" />
+    <Content Include="Content\Img\contacts\КонтактыНадпись.png" />
+    <Content Include="Content\Img\contacts\Сontacts.jpg" />
+    <Content Include="Content\Img\contacts\Спб.png" />
     <Content Include="Content\Img\Error\Админ.png" />
     <Content Include="Content\Img\Error\ГлавноеMеню.png" />
     <Content Include="Content\Img\Error\ОшибкаФон.jpg" />
@@ -326,6 +332,7 @@
     <Content Include="Views\News\Edit.cshtml" />
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
+    <Content Include="Views\Home\Contacts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\plugins\" />
