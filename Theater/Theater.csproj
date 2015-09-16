@@ -334,6 +334,7 @@
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
     <Content Include="Views\Home\Contacts.cshtml" />
+    <Content Include="Views\Repertory\Gallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\plugins\" />
