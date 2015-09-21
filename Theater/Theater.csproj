@@ -249,12 +249,6 @@
     <Content Include="Content\Img\repertory\heart\8oL-0FLn0O0.jpg" />
     <Content Include="Content\Img\repertory\heart\e.jpg" />
     <Content Include="Content\Img\repertory\heart\XtPSCnBngkU.jpg" />
-    <Content Include="Content\Img\repertory\notnormal\BQa4arKHT6w.jpg" />
-    <Content Include="Content\Img\repertory\notnormal\c.jpg" />
-    <Content Include="Content\Img\repertory\notnormal\CPyaDk56CLU.jpg" />
-    <Content Include="Content\Img\repertory\notnormal\E4Dluf1Cu_I.jpg" />
-    <Content Include="Content\Img\repertory\notnormal\Q-Z6ECPrr3k.jpg" />
-    <Content Include="Content\Img\repertory\notnormal\WwNT64vwMCE.jpg" />
     <Content Include="Content\Img\repertory\pollianna\4on1RAolh1.jpg" />
     <Content Include="Content\Img\repertory\pollianna\ki9IOlYmH.jpg" />
     <Content Include="Content\Img\repertory\pollianna\OW1VMnuuKS.jpg" />
@@ -333,7 +327,6 @@
     <Content Include="Views\Shared\_LayoutRepertory.cshtml" />
     <Content Include="Views\Shared\_LayoutPage.cshtml" />
     <Content Include="Views\Repertory\Candle.cshtml" />
-    <Content Include="Views\Repertory\NotNormal.cshtml" />
     <Content Include="Views\Repertory\Heart.cshtml" />
     <Content Include="Views\Repertory\WhyPeopleLive.cshtml" />
     <Content Include="Views\News\Create.cshtml" />
@@ -347,6 +340,7 @@
     <Content Include="Views\Shared\_LayoutGallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Content\Img\repertory\notnormal\" />
     <Folder Include="Scripts\plugins\" />
     <Folder Include="Scripts\themes\" />
   </ItemGroup>
