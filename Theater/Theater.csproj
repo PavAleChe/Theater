@@ -255,6 +255,12 @@
     <Content Include="Content\Img\repertory\notnormal\E4Dluf1Cu_I.jpg" />
     <Content Include="Content\Img\repertory\notnormal\Q-Z6ECPrr3k.jpg" />
     <Content Include="Content\Img\repertory\notnormal\WwNT64vwMCE.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\4on1RAolh1.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\ki9IOlYmH.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\OW1VMnuuKS.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\poll.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\VQFg2nZu3O.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\ZMT2iIqMAq.jpg" />
     <Content Include="Content\Img\repertory\whypeoplelive\BNwbMKP0GgA.jpg" />
     <Content Include="Content\Img\repertory\whypeoplelive\brLrKc3YnjE.jpg" />
     <Content Include="Content\Img\repertory\whypeoplelive\DAZwI4rowmQ.jpg" />
@@ -341,7 +347,6 @@
     <Content Include="Views\Shared\_LayoutGallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\Img\repertory\pollianna\" />
     <Folder Include="Scripts\plugins\" />
     <Folder Include="Scripts\themes\" />
   </ItemGroup>
