@@ -239,6 +239,10 @@
     <Content Include="Content\Img\repertory\candle\ric.jpg" />
     <Content Include="Content\Img\repertory\candle\swucrDZwaDY.jpg" />
     <Content Include="Content\Img\repertory\candle\vU9gAKA3yzc.jpg" />
+    <Content Include="Content\Img\repertory\fiveStory\1XGiM8j5Wng.jpg" />
+    <Content Include="Content\Img\repertory\fiveStory\Dv1CEoLL4CU.jpg" />
+    <Content Include="Content\Img\repertory\fiveStory\f9Q29QLASoA.jpg" />
+    <Content Include="Content\Img\repertory\fiveStory\p.jpg" />
     <Content Include="Content\Img\repertory\heart\-b1xco5OfMU.jpg" />
     <Content Include="Content\Img\repertory\heart\5XP3DUxpIy4.jpg" />
     <Content Include="Content\Img\repertory\heart\8Esv0yKPm68.jpg" />
@@ -343,7 +347,6 @@
     <Content Include="Views\Repertory\NotNormal.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\Img\repertory\fiveStory\" />
     <Folder Include="Scripts\plugins\" />
     <Folder Include="Scripts\themes\" />
   </ItemGroup>
