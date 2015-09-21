@@ -183,6 +183,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\ContactsStyle.css" />
     <Content Include="Content\ErrorStyle.css" />
+    <Content Include="Content\GalleryStyle.css" />
     <Content Include="Content\Img\about\about.jpg" />
     <Content Include="Content\Img\about\Админ.png" />
     <Content Include="Content\Img\about\ГлавноеMеню.png" />
@@ -206,6 +207,8 @@
     <Content Include="Content\Img\Error\ГлавноеMеню.png" />
     <Content Include="Content\Img\Error\ОшибкаФон.jpg" />
     <Content Include="Content\Img\Error\Спб.png" />
+    <Content Include="Content\Img\Gallery\gallery.jpg" />
+    <Content Include="Content\Img\Gallery\Репертуар.png" />
     <Content Include="Content\Img\index\Афиша.png" />
     <Content Include="Content\Img\index\контакты.png" />
     <Content Include="Content\Img\index\Люди театра.png" />
@@ -218,6 +221,9 @@
     <Content Include="Content\Img\index\Спб Театр с миру по нитке.png" />
     <Content Include="Content\Img\index\театр студия.png" />
     <Content Include="Content\Img\index\Фон.jpg" />
+    <Content Include="Content\Img\menu\Админ.png" />
+    <Content Include="Content\Img\menu\ГлавноеMеню.png" />
+    <Content Include="Content\Img\menu\Спб.png" />
     <Content Include="Content\Img\partners\Админ.png" />
     <Content Include="Content\Img\partners\ГлавноеMеню.png" />
     <Content Include="Content\Img\partners\ПартнерыНадпись.png" />
@@ -249,12 +255,12 @@
     <Content Include="Content\Img\repertory\notnormal\E4Dluf1Cu_I.jpg" />
     <Content Include="Content\Img\repertory\notnormal\Q-Z6ECPrr3k.jpg" />
     <Content Include="Content\Img\repertory\notnormal\WwNT64vwMCE.jpg" />
-    <Content Include="Content\Img\repertory\pollianna\4on1RAolh1o.jpg" />
-    <Content Include="Content\Img\repertory\pollianna\ki9IOlYmH-s.jpg" />
-    <Content Include="Content\Img\repertory\pollianna\OW1VMnuuKS0.jpg" />
-    <Content Include="Content\Img\repertory\pollianna\polly.jpg" />
-    <Content Include="Content\Img\repertory\pollianna\VQFg2nZu3Ok.jpg" />
-    <Content Include="Content\Img\repertory\pollianna\ZMT2iIqMAqo.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\4on1RAolh1.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\ki9IOlYmH.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\OW1VMnuuKS.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\poll.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\VQFg2nZu3O.jpg" />
+    <Content Include="Content\Img\repertory\pollianna\ZMT2iIqMAq.jpg" />
     <Content Include="Content\Img\repertory\whypeoplelive\BNwbMKP0GgA.jpg" />
     <Content Include="Content\Img\repertory\whypeoplelive\brLrKc3YnjE.jpg" />
     <Content Include="Content\Img\repertory\whypeoplelive\DAZwI4rowmQ.jpg" />
@@ -274,6 +280,7 @@
     <Content Include="Content\indexStyle.css" />
     <Content Include="Content\PartnersStyle.css" />
     <Content Include="Content\repertoryStyle.css" />
+    <Content Include="Content\slaider.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -283,6 +290,7 @@
     <Content Include="Scripts\indexScript.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\theater.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -297,6 +305,7 @@
     <Content Include="Scripts\repertoryScript.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\slaider.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -324,7 +333,6 @@
     <Content Include="Views\Shared\_LayoutRepertory.cshtml" />
     <Content Include="Views\Shared\_LayoutPage.cshtml" />
     <Content Include="Views\Repertory\Candle.cshtml" />
-    <Content Include="Views\Repertory\NotNormal.cshtml" />
     <Content Include="Views\Repertory\Heart.cshtml" />
     <Content Include="Views\Repertory\WhyPeopleLive.cshtml" />
     <Content Include="Views\News\Create.cshtml" />
@@ -334,6 +342,9 @@
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
     <Content Include="Views\Home\Contacts.cshtml" />
+    <Content Include="Views\Repertory\Gallery.cshtml" />
+    <Content Include="Views\Shared\_LayoutGallery.cshtml" />
+    <Content Include="Views\Repertory\NotNormal.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\plugins\" />

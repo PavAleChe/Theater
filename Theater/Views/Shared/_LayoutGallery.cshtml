@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/GalleryStyle.css" rel="stylesheet" type="text/Scss">
+    <link href="~/Content/slaider.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+<body>
+
+    <div id="HeadDiv" style="left: 0px; top: 0px; width: 1120px; height: 94px;" class="auto-style1">
+        <img alt="" height="840" src="~/Content/img/Gallery/gallery.jpg" width="1120" id="BossImg" style="left: 7px; top: -18px">
+        <a href="/Home/Contacts">
+            <img alt="" height="70" src="~/Content/img/menu/Админ.png" width="217" id="Админ" name="Админ" onmouseout="ImgMouseOutForAll('Админ')" onmouseover="ImgMouseOverForAll('Админ')">
+        </a>
+        <a href="/Home/Index">
+            <img alt="" height="88" src="~/Content/img/menu/Спб.png" width="352" id="Спб" name="Спб" onmouseout="ImgMouseOutForAll('Спб')" onmouseover="ImgMouseOverForAll('Спб')">
+        </a>
+        <a href="/Home/Index">
+            <img alt="" height="80" src="~/Content/img/menu/ГлавноеMеню.png" width="285" id="ГлавноеMеню" onmouseout="ImgMouseOutForAll('ГлавноеMеню')" onmouseover="ImgMouseOverForAll('ГлавноеMеню')">
+        </a>
+        <a href="/Home/Repertory">
+            <img alt="" src="~/Content/img/Gallery/Репертуар.png" id="Надпись" onmouseout="ImgMouseOutForAll('Надпись')" onmouseover="    ImgMouseOverForAll('Надпись')">
+        </a>
+
+        <div id="Gallery">
+            <div class="slider" style=" width: 515px; height: 360px">
+                <ul>
+                    
+                    @RenderBody()
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="~/SCRIPTS/slaider.js"></script>
+</body>
+</html>

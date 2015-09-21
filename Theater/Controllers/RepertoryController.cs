@@ -38,5 +38,10 @@ namespace Theater.Controllers
         {
             return View();
         }
+
+        public ActionResult Gallery()
+        {
+            return View();
+        }
     }
 }
