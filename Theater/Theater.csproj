@@ -207,6 +207,7 @@
     <Content Include="Content\Img\Error\ГлавноеMеню.png" />
     <Content Include="Content\Img\Error\ОшибкаФон.jpg" />
     <Content Include="Content\Img\Error\Спб.png" />
+    <Content Include="Content\Img\Gallery\gallery.jpg" />
     <Content Include="Content\Img\Gallery\Репертуар.png" />
     <Content Include="Content\Img\index\Афиша.png" />
     <Content Include="Content\Img\index\контакты.png" />
