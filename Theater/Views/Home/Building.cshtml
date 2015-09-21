@@ -1,11 +1,36 @@
 ﻿
 @{
-    Layout = "~/Views/Shared/_LayoutRepertory.cshtml";
-    ViewBag.Title = "Building";
+    ViewBag.Title = "Страница в разработке";
+    Layout = null;
 }
 
-<h2>Building</h2>
-<h1>Страница находится в стадии разработки!</h1><br><br>
-<h1><a href="/Home/Index">Перейти на главную страницу</a></h1>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link href="~/Content/ErrorStyle.css" rel="stylesheet" type="text/Scss">
+    <script type="text/javascript" src="~/SCRIPTS/MouseOutOverScript.js"></script>
+    <title>Страница в разработке</title>
+</head>
+
+<body>
+
+    <div id="HeadDiv" style="left: 0px; top: 0px; width: 1120px; height: 94px;">
+        <img alt="" height="840" src="~/Content/img/Error/building.jpg" width="1120" id="BossImg" style="left: 7px; top: -18px">
+        <a href="/Home/Contacts">
+            <img alt="" height="70" src="~/Content/img/Error/Админ.png" width="217" id="Админ" name="Админ" onmouseout="ImgMouseOutForAll('Админ')" onmouseover="ImgMouseOverForAll('Админ')">
+        </a>
+        <a href="/Home/Index">
+            <img alt="" height="88" src="~/Content/img/Error/Спб.png" width="352" id="Спб" name="Спб" onmouseout="ImgMouseOutForAll('Спб')" onmouseover="ImgMouseOverForAll('Спб')">
+        </a>
+        <a href="/Home/Index">
+            <img alt="" height="80" src="~/Content/img/Error/ГлавноеMеню.png" width="285" id="ГлавноеMеню" onmouseout="ImgMouseOutForAll('ГлавноеMеню')" onmouseover="ImgMouseOverForAll('ГлавноеMеню')">
+        </a>
+    </div>
+
+</body>
+
+</html>
 
 

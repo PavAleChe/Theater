@@ -56,13 +56,13 @@ namespace Theater.Controllers
         //Так как страница пока не существует, перенаправляем на страницу ошибки
         public ActionResult People()
         {
-            return View("Error");
+            return View("Building");
         }
 
         //Так как страница пока не существует, перенаправляем на страницу ошибки
         public ActionResult Reports()
         {
-            return View("Error");
+            return View("Building");
         }
     }
 }

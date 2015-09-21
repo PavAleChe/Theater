@@ -203,6 +203,7 @@
     <Content Include="Content\Img\contacts\КонтактыНадпись.png" />
     <Content Include="Content\Img\contacts\Сontacts.jpg" />
     <Content Include="Content\Img\contacts\Спб.png" />
+    <Content Include="Content\Img\Error\building.jpg" />
     <Content Include="Content\Img\Error\Админ.png" />
     <Content Include="Content\Img\Error\ГлавноеMеню.png" />
     <Content Include="Content\Img\Error\ОшибкаФон.jpg" />
